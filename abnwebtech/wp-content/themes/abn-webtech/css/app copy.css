@@ -1,0 +1,357 @@
+/*
+Theme Name: ABN WEBTECH
+Theme URI:  https://akbarwebtech.com/
+Author: The ABN Team
+Author URI:  https://abnwebtech.com/
+Description: This is ABN WEBTECH Theme for 2018
+Version: 3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+---------------------------------------------------------------*/
+/*|==============================================================
+    Normalize CSS
+==================================================================|*/
+:root{
+    --container-width: 1408px;
+    --abn-white: #ffffff;
+    --abn-primary: #43BC43;
+    --abn-primary-800: #68CA68;
+    --abn-primary-600: #8DD88D;
+    --abn-primary-400: #B2E6B2;
+    --abn-primary-200: #D8F3D8;
+    --abn-secondary: #1f1f1f;
+    --abn-black-800: #0D0208;
+    --abn-black: #000000;
+    --abn-fs-body: 16px;
+    --abn-fs-sm: 20px;
+    --abn-fs-md: 24px;
+    --abn-fs-lg: 32px;
+    --abn-fs-lg: 48px;
+    --abn-fw-700: 700;
+    --abn-fw-600: 600;
+    --abn-fw-400: 400;
+    --abn-fw-200: 200;
+    --spacing-xxs: 2px;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: var(--abn-black);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--abn-primary);
+}
+/*|==============================================================
+    Utilities CSS
+==================================================================|*/
+*,*:after,*:before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--abn-black-800);
+    margin: 0;  padding: 0;
+}
+ul,ol{
+    margin: 0;  padding: 0;
+}
+ul li, ol li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+a{
+    color: var(--abn-black-800);
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    max-width: var(--container-width);
+}
+/*=====================| Padding |=====================*/
+.sec-py,.sec-pt{
+    padding-top: 24px;
+}
+.sec-py,.sec-pb{
+    padding-bottom: 24px;
+}
+.sec-py-0,.sec-pt-0{
+    padding-top: 0;
+}
+.sec-py-0,.sec-pb-0{
+    padding-bottom: 0;
+}
+/*=====================| Button |=====================*/
+.btn{
+    box-shadow: none;
+}
+.btn-xs{
+    font-size: 14px;
+}
+.btn-xxs{
+    font-size: 11px;
+    padding: 4px 8px;
+}
+.btn-solid,.btn-capsule{
+    color: var(--abn-white);
+    background-color: var(--abn-primary);
+    border: 2px solid var(--abn-black-800);
+}
+.btn-capsule,.btn-capsule-ol{
+    border-radius: 30px;
+}
+.btn-solid-ol,.btn-capsule-ol{
+    color: var(--abn-black-800);
+    border: 2px solid var(--abn-black-800);
+}
+.btn-solid:hover,.btn-solid-ol:hover,.btn-capsule:hover,.btn-capsule-ol:hover{
+    color: var(--abn-white);
+    border: 2px solid var(--abn-primary);
+    background-color: var(--abn-primary);
+}
+/*=====================| Section Header |=====================*/
+.title{
+    font-size: var(--abn-fs-sm);
+}
+.sec-header{
+    margin-bottom: 24px;
+}
+.sec-header .heading{
+    font-size: 30px;
+    font-weight: var(--abn-fw-600);
+}
+.sec-header .sec-title{
+    font-size: 24px;
+    font-weight: var(--abn-fw-600);
+}
+.sec-header .sub-title{
+    font-size: 18px;
+}
+.sec-header .eyebrow-title{
+    display: block;
+    font-size: 14px;
+    padding: 6px 16px;
+    background-color: var(--abn-primary-200);
+    border-radius: 19px;
+}
+.sec-header p{
+    font-size: 16px;
+}
+/*=====================================================
+    Media Query
+=======================================================*/
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /*========| Padding |========*/
+    .container{
+        padding: 0 var(--spacing-lg) 0 var(--spacing-lg);
+    }
+    .sec-py,.sec-pt{
+        padding-top: 30px;
+    }
+    .sec-py,.sec-pb{
+        padding-bottom: 30px;
+    }
+    .sec-py-sm-0,.sec-pt-sm-0{
+        padding-top: 0;
+    }
+    .sec-py-sm-0,.sec-pb-sm-0{
+        padding-bottom: 0;
+    }
+    /*========| Button |========*/
+    .btn-sm{
+        padding: 8px 16px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /*========| Padding |========*/ 
+    .sec-py,.sec-pt{
+        padding-top: 40px;
+    }
+    .sec-py,.sec-pb{
+        padding-bottom: 40px;
+    }
+    .sec-py-md-0,.sec-pt-md-0{
+        padding-top: 0;
+    }
+    .sec-py-md-0,.sec-pb-md-0{
+        padding-bottom: 0;
+    }
+    /*========| Button |========*/
+    .btn-md{
+        font-size: 17px;
+        padding: 10px 22px;
+    }
+    /*========| Section Header |========*/
+    .title{
+        font-size: var(--abn-fs-md);
+    }
+    .sec-header{
+        margin-bottom: 30px;
+    }
+    .sec-header .heading{
+        font-size: 40px;
+        font-weight: var(--abn-fw-700);
+    }
+    .sec-header .sec-title{
+        font-size: 30px;
+        font-weight: var(--abn-fw-600);
+    }
+    .sec-header .sub-title{
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /*========| Padding |========*/
+    .sec-py,.sec-pt{
+        padding-top: 60px;
+    }
+    .sec-py,.sec-pb{
+        padding-bottom: 60px;
+    }
+    .sec-py-lg-0,.sec-pt-lg-0{
+        padding-top: 0;
+    }
+    .sec-py-lg-0,.sec-pb-lg-0{
+        padding-bottom: 0;
+    }
+    /*========| Button |========*/
+    .btn-lg{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    /*========| Section Header |========*/
+    .title-lg{
+        font-size: var(--abn-fs-lg);
+    }
+    .sec-header{
+        margin-bottom: 40px;
+    }
+    .sec-header .heading{
+        font-size: 50px;
+    }
+    .sec-header .sec-title{
+        font-size: 36px;
+    }
+    .sec-header .sub-title{
+        font-size: 22px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /*========| Padding |========*/ 
+    .sec-py,.sec-pt{
+        padding-top: 80px;
+    }
+    .sec-py,.sec-pb{
+        padding-bottom: 80px;
+    }
+    .sec-py-xl-0,.sec-pt-xl-0{
+        padding-top: 0;
+    }
+    .sec-py-xl-0,.sec-pb-xl-0{
+        padding-bottom: 0;
+    }
+    /*========| Button |========*/
+    .btn-xl{
+        font-size: 22px;
+        padding: 20px 30px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    /*========| Padding |========*/ 
+    .sec-py,.sec-pt{
+        padding-top: 100px;
+    }
+    .sec-py,.sec-pb{
+        padding-bottom: 100px;
+    }
+    .sec-py-xxl-0,.sec-pt-xxl-0{
+        padding-top: 0;
+    }
+    .sec-py-xxl-0,.sec-pb-xxl-0{
+        padding-bottom: 0;
+    }    
+}
+
+/* `xs` returns only a ruleset and no media query
+// ... { ... } */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+     
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+     
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    
+}

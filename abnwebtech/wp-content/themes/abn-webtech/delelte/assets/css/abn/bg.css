@@ -1,0 +1,133 @@
+/* ABN Document */
+/*Color Codee*/
+.tvl{
+	color: violet;
+}
+.tcl{
+	color: coral;
+}
+.tccl{
+	color: chocolate;
+}
+.tcfb{
+	color: cornflowerblue;
+}
+.tdg{
+	color: darkgoldenrod;
+}
+.tyg{
+	color: yellowgreen;
+}
+.twh{
+	color: #fff;
+}
+
+.ttm{
+	color: tomato;
+}
+
+/* Padding Start */
+.pd-a-15{
+	padding: 15px;
+}
+.pd-a-50{
+	padding: 50px;
+}
+.pd-lf-50{
+	padding: 0 50px;
+}
+.pd-tb-50{
+	padding: 50px 0;
+}
+.pd-tb-75{
+	padding: 75px 0;
+}
+.pd-tb-100{
+	padding: 100px 0;
+}
+.pd-tb-150{
+	padding: 150px 0;
+}
+/* Padding End */
+
+
+/* Margin Start */
+.m-a-15{
+	margin: 15px;
+}
+.m-a-50{
+	margin: 50px;
+}
+.m-lr-50{
+	margin: 0 50px;
+}
+.m-tb-50{
+	margin: 50px 0;
+}
+.m-tb-90{
+	margin: 90px 0;
+}
+/* Margin End */
+
+/* border Start */
+.bd-1{
+	border: 1px solid #e7e7e7
+}
+.bd-2{
+	border: 1px solid #e7e7e7
+}
+/* Border Radious Strat */
+
+.bdr-3{
+	border-radius: 3px;
+}
+.bdr-5{
+	border-radius: 5px;
+}
+.bdr-10{
+	border-radius: 10px;
+}
+.bdr-15{
+	border-radius: 15px;
+}
+.bdr-25{
+	border-radius: 25px;
+}
+/* Border Radious End */
+
+.bg-blue-red{
+	background: url(../../bg/blue-red.svg);
+}
+
+.grd-green-white{
+	background: #11998e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-white{
+	background: #fff;
+}
+.bg-white-op-6{
+	background: #f8f9fa!important;
+}
+
+
+/* Shadow */
+.bdr-top-sd{
+	background-color: #f6f6f6;
+    background-image: -webkit-linear-gradient(#f6f6f6 0%, white 45%);
+    background-image: linear-gradient(#f6f6f6 0%, white 45%);
+    border-bottom: 1px solid #E9E9E6;
+    border-top: 1px solid #EDEDED;
+}
+
+/* Back properties*/
+.bg-atch{
+    background: #11998e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-attachment: fixed;
+	background-size: cover;
+}

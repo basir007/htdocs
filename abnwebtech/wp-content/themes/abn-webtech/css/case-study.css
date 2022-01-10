@@ -1,0 +1,325 @@
+.intro-text {
+	background: url(../images/wordpress-development-company-kolkata.jpg);
+	background-size: cover;
+	color: #fff;
+	padding: 50px 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	height: 100vh;
+}
+.intro-text .title {
+	margin-top:90px;
+	padding: 15px;
+
+	
+}
+.intro-text .title h2{
+	font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+}
+.intro-text .text{
+	margin-top: 50px;
+	line-height: 30px;
+	font-size: 22px;
+}
+
+.red-img{
+	background:#f44336
+}
+
+
+
+.case-study{
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+}
+.case-study .doctor {
+	background: url(../images/hospital.jpg);
+
+	background-size:cover;
+}
+.case-study .dance {
+	background: url(../images/dance.jpg);
+	background-size:cover;
+}
+.case-study .black {
+	background: url(../images/black-bg.jpg);
+	background-size:cover;
+}
+
+.case-study .bg-img{
+	margin-top: 0px;
+	height: 650px;
+	overflow: hidden;
+	
+}
+
+
+.cross {
+    background: #fc635d;
+}
+
+.min {
+    background: #fdbc40;
+}
+
+.max {
+    background: #34c84a;
+}
+
+.featured {
+    padding: 50px ;
+	background:#F5F5F5;
+}
+
+.featured .card{
+    border-radius: 5px;  
+	transition: 0.35s ease-out;
+    -webkit-transition: 0.35s ease-out;
+    -moz-transition: 0.35s ease-out;
+	cursor: pointer;
+	border:#e7e7e7;
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+
+}
+.featured .card:hover{
+	transform: translate3d(0, -10px, 0);
+    -webkit-transform: translate3d(0, -10px, 0);
+    box-shadow: 0 23px 40px rgba(0,0,0,0.2);
+}
+
+
+.featured .card-header {
+    padding: 0px 10px;
+    position: relative;
+    z-index: 0 !important;
+    height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #fff; 
+}
+.featured .card-block img{
+	
+	
+	 -moz-box-shadow: inset 0 -6px 15px -10px #000000;
+    -webkit-box-shadow: inset 0 -6px 15px -10px #000000;
+    box-shadow: inset 0 -6px 15px -10px #000000;
+}
+.featured .button {
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+.featured .browser-bar {
+    background: #f9f9f3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+.browser-url-bar {
+    background: #455456;
+    width: 100%;
+    height: 15px;
+    margin-left: 25px;
+}
+.featured .title-block{
+    background: #fff;
+    padding: 25px 20px;
+    position: relative;
+}
+.featured.card-title {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.featured .card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.featured .card-title  {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.featured .card-footer i{
+  padding: 5px
+}
+.featured.card-footer a, .card-footer span.price{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.fa-heart-o:hover {
+  
+    color: red;
+ 
+}
+.featured .fa-flag:hover {
+    color: red;
+}
+.case-study .bg-img  .card {
+	margin-top: 90px;
+	
+}
+.case-study .bg-color{
+	background: #f9f9f9;
+	
+	
+}
+.case-study .text-sec{
+	padding: 130px 100px;
+	
+}
+.case-study .title h3{
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: bold;
+	
+
+}
+.case-study .desc{
+	margin-top: 35px;
+	line-height: 30px;
+	font-size: 17px;
+}
+.testimonial {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	background-color:#0B2AE0;
+	padding:100px;
+	color: #fff;
+	
+
+}
+.testimonial .comment{
+	padding: 0 60px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 20px;
+ 	font-family: 'Ubuntu', sans-serif;
+    line-height: 32px;
+	font-weight: 300;
+	
+}
+.testimonial .client{
+	margin: auto;
+
+	
+}
+.testimonial .client h4{
+	font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.testimonial .client span{
+	font-size: 16px;
+	font-weight:400;
+}
+
+
+/* footer-form */
+
+/*Who We are - About -Single Column */
+.footer-form{
+	
+}
+.footer-form .section-title h3 {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-weight: 700;
+}
+.footer-form .section-description p {
+    line-height: 30px;
+    padding: 25px;
+    font-size: 18px;
+}
+.footer-form  .contact-form {
+    padding: 10px 0 150px;
+}
+.footer-form .contact-form .row {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.footer-form .contact-form .form-control {
+    margin: 5px;
+    height: 50px ;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-form .contact-form textarea , .hire-us textarea {
+   min-height: 150px!important;
+	resize: vertical;
+}
+
+@media (max-width: 575.98px) { 
+    .intro-text .title h2{
+		font-size: 18px;
+    	line-height: 30px;
+	}
+	.intro-text .text {
+		margin-top: 25px;
+		line-height: 26px;
+		font-size: 18px;
+	}
+	.case-study .bg-img {
+		margin-top: 0px;
+		height: 410px;
+		overflow: hidden;
+	}
+	.case-study .text-sec {
+    	padding: 30px;
+	}
+	.case-study .title h3 {
+    	font-size: 30px;
+	}
+	.case-study .desc {
+		margin-top: 20px;
+		line-height: 25px;
+		font-size: 15px;
+	}
+	.testimonial{
+		padding: 15px;
+	}
+	.testimonial .comment{
+		padding: 0px;
+	}
+	.testimonial .client {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.testimonial .client h4{
+		font-size: 18px;
+	}
+	.testimonial .comment{
+		font-size: 15px;
+    	line-height: 25px;
+	}
+
+	.footer-form .section-title h3{
+		font-size: 18px;
+	}
+	.footer-form .section-description p {
+		line-height: 25px;
+		padding: 10px;
+		font-size: 16px;
+	}
+}

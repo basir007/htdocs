@@ -1,0 +1,122 @@
+/*
+Theme Name: AKBAR WEBTECH
+Theme URI:  https://akbarwebtech.com/
+Author: the ABN team
+Author URI:  https://akbarwebtech.com/
+Description: This is ABN WEBTECH Theme for 2018
+Version: 3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Normalize
+Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+/*|===============================================================
+    Case Study Page
+==================================================================|*/
+.case-study-sec{}
+.wide-block{
+    margin-top: 60px;
+    padding: 50px;
+    border-radius: 8px;
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1cf0ff15, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1cf0ff6c, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #1c92d2;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to top, #f2fcfe, #1c92d2); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.wide-block .card{
+    background: none;
+    border: none;
+    border-radius: 8px;
+}
+.wide-block .card .title{
+    color: #222222;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 46px;
+    margin: 30px 0;
+}
+.wide-block .card-body{
+    background-color: rgba(255,255,255,.7);
+    padding: 24px;
+    border-radius: 8px;
+}
+.wide-block .card-body p{
+    font-size: 17px;
+    line-height: 28px;
+    text-align: justify;
+}
+.wide-block .card-body .card-footer{
+    display: flex;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.wide-block .card-body .card-footer .client-img{
+    overflow: hidden;
+    margin-right: 15px;
+}
+.wide-block .card-body .card-footer .client-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.wide-block .card-body .card-footer .card-footer-text{}
+.wide-block .card-body .card-footer .card-footer-text .client-name{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.wide-block .card-body .card-footer .card-footer-text .client-postion{
+    color: #6a6a8e;
+    font-size: 14px;
+    line-height: 20px;
+}
+.wide-img-block{
+    text-align: right;
+}

@@ -1,0 +1,200 @@
+/* CSS Document */
+/*common css for page*/
+.page-title{
+	font-size: 35px;
+    padding: 50px 0 0px;
+    text-align: left;
+	font-family: 'Ubuntu', sans-serif;
+}
+.page .lead {
+    padding: 15px 0px 15px 0px;
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Sidebar Contact Form */
+.side-contact {
+    border-left: 1px solid #e5e5e5;
+}
+@media (min-width: 960px) {
+		.page .col-md-8{
+
+			box-shadow: 0px 0px 100px -90px #000000, 54px 0px 100px -90px #000000;
+		}
+		.side-contact{
+			border-left: 1px solid #e5e5e5;
+		}
+	}
+/*
+.col-md-4 {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 33.333333%;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+}
+@media (min-width: 768px){
+	.col-md-4 {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 33.333333%;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+}
+*/
+/*Error*/
+.contact-box label.error {
+	font-size: 16px !important;
+	text-align: left;
+}
+.contact-box .msg-caption {
+	margin: auto;
+	font-size: 20px !important;
+	text-align: center;
+}
+.form-group .input-group-addon {
+	background-color: #ffffff7a !important;
+}
+.white-text {
+	color: #000;
+}
+.contact-page {
+	padding: 60px 0;
+}
+.contact-content {
+	margin: 50px 0;
+	padding: 0 20px;/*	background-color: #3A96E1;
+background-image: url(images/site-contact.png);
+
+background-repeat: no-repeat;
+background-size: cover;
+*/
+}
+.contact-content .contact-header {
+	color: #fff;
+	padding-bottom: 15px;
+}
+.contact-content .contact-header i {
+	display: block;
+	text-align: center;
+	font-size: 80px;
+	color: #fff;
+}
+.contact-content .contact-header h4 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+}
+.contact-content .form-group {
+	padding-bottom: 0px;
+}
+.contact-content .form-control {
+	height: 40px;
+}
+.contact-content .form-control, .contact-content .input-group-addon {
+	border-radius: 0;
+	font-weight: 300;
+}
+.contact-content textarea.form-control {
+	resize: none;
+	height: 100px;
+}
+
+.contact-content .btn-block {
+	color: #fff;
+	background-color: #000;
+	border: 2px solid #007bff;
+	padding: 10px 0;
+	border-radius: 4px;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+label.error {
+    clear: none;
+    color: #cc0000;
+    font-size: 12px;
+    display: block !important;
+}
+label.error {
+    clear: none;
+    color: #cc0000;
+    font-size: 12px;
+    display: block !important;
+}
+
+
+hr.separator {
+    border: 0;
+    height: 1px;
+    margin-bottom: 50px;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) !important;
+}
+hr.separator:before {
+    content: "\f2dd";
+    top: -15px;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: FontAwesome;
+    /* font-family: "linecons"; */
+    font-size: 22px;
+    left: 49.7%;
+    padding: 0;
+    position: absolute;
+    background: #fff;
+}
+
+
+
+.contact-email-mobile, .seo-tags{
+	margin: 50px 0;
+    padding: 0 20px;
+}
+.contact-details{
+	font-family: 'Ubuntu', sans-serif;
+}
+.contact-email-mobile .contact-header , .tag-header{
+	font-family: 'Ubuntu', sans-serif;
+}
+.contact-details span{
+	/* font-size: 21px; */
+    font-weight: bold;
+    display: block;
+    color: #2e3233;
+    line-height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Seo Tags*/
+.seo-tags ul{
+	
+	padding:0;
+	margin: 0;
+}
+.seo-tags ul li{
+	
+ list-style-type: none;
+ font-weight: bold;
+ color: #2e3233; 
+ line-height: 40px;
+ font-family: 'Ubuntu', sans-serif;
+ display: block;
+}
+.seo-tags ul li a{
+	 color: #2e3233;
+}
+.seo-tags ul li a:hover{
+	
+	text-decoration: none;
+	 -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+	
+}
+
+
+/*tags*/

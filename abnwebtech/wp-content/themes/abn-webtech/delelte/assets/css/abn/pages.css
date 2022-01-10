@@ -1,0 +1,851 @@
+/* CSS Document */
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+	margin: 0!important;
+}
+
+/*blinking */
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}
+ul li {
+    list-style: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h3, h5  {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	text-transform:inherit;
+}
+.header-top{
+	background: #0b962a;
+	color: #fff;
+	padding: 0 50px;
+}
+.header-top p.lead{
+	margin: 10px 0;
+}
+.header-top ul li a, 
+.header-top ul li,
+.header-top p.lead,
+.header-top p a{
+	color: #fff;
+	font-size: 17px;
+}
+.header-top a{
+	text-decoration: none;
+	color: #000;
+}
+.header-top ul {
+	float: right;
+	margin: 10px;
+}
+.header-top ul li a,.header-top ul li {
+	text-decoration: none;
+	padding-left: 15px;
+	color:#fff;	
+}
+.header-top ul li a i,.header-top ul li i{
+	padding: 0 5px  
+}
+
+
+/*Banner text*/
+.home-bg{
+  background: url('../../../images/website-company-kolkata-slider.jpg');
+  height: 85vh;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 2;
+}
+.weltext{
+    margin-top: 50px;
+	display: block;
+	padding: 0 50px;
+}
+.weltext h1 {
+	margin-top: 90px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+	padding-bottom: 25px;
+    color: #fff;
+  
+}
+.weltext p {
+    color: #fff;
+	font-size: 20px;
+    line-height: 26px;
+}
+.weltext .btn  {
+    border-radius: 3px;
+    font-size: 20px;
+	margin: 25px 0;
+}
+.sub-text {
+	color: #fff;
+	padding: 0 50px;
+}
+.sub-text strong{
+	display: block;
+	padding: 10px 0;
+}
+.sub-text a{
+	font-weight: 600;
+}
+
+.our-key-points{
+/*	padding-bottom: 50px;*/
+	background:#fff; 
+}
+
+.our-key-points img {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #e5e5e5;
+	padding: 15px;
+	fill: #FF9800;
+	color: #FF9800;
+	
+}
+.our-key-points .media h5{
+    font-size:16px;
+	line-height: 25px;
+}
+.our-key-points .svg  { color: #FF9800 !important;}
+
+.our-key-points  .media p {
+	  font-size: 14px;
+}
+.our-key-points .sec-description  {
+	line-height: 30px;
+    padding: 25px 0;
+    font-size: 16px;
+	text-align: center;
+}
+.mock-up {
+	margin-top: 100px;
+	height: 350px;
+	display: block;
+	overflow: hidden;
+	background-attachment: fixed;
+}
+.mock-up img {
+	width: 100%;
+	
+	background: no-repeat;
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+	
+}
+.bg-img {
+	margin-top: 100px;
+	background: url(../../../images/mockup.png);
+	width: 100%;
+/*	background-attachment: fixed;*/
+	background-size: cover;
+	height: 348px;
+}
+
+/*Index about */
+.about-us {
+	background: url(../../../images/website-company-kolkata.jpg);
+	width: 100%;
+/*	height: 800px;*/
+	background-color: #17a2b7e0;
+
+	
+}
+.about-us .content-right .sec-title h3{
+
+    display: block;
+    font-size: 18px;
+    text-align: left;
+  
+}
+.about-us .right-sec {
+    background: #17a2b7e0;;
+
+}
+
+.about-us .content-right {
+	padding: 50px 25px;
+}
+.about-us .lead {
+	line-height: 30px;
+     padding: 25px 0;
+    font-size: 16px;
+	text-align: justify;
+	color: #fff;
+}
+.about-us .lead strong {
+	font-weight: bold;
+}
+.about-us .sec-description ul{
+	padding: 0;
+	margin: 0;
+}
+.about-us .sec-description ul li{
+	list-style: none;
+}
+
+.about-us .content-right .btn{
+	line-height: 25px;
+	border: 3px solid #000;
+	background: #0000;
+	cursor: pointer;
+	font-weight: bold;
+}
+.about-us a img{
+	height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.about-us a img:hover{
+	color: #f9f9f9;
+	fill:#fff;
+}
+.about-us .btn:hover {
+	color:#fff !important;
+	background: #17a2b8;
+}
+
+@media (max-width: 575px) {
+	.about-us .content-right .sec-title h3 {
+		font-size: 18px;
+		text-align: center;
+		line-height: 30px;
+	}
+	.about-us .lead {
+		line-height: 25px;
+		padding: 10px 0;
+		font-size: 15px;
+		text-align: justify;
+	}
+}
+
+
+/*Key points*/
+.our-key-points .sec-title h3 {
+    display: block;
+    text-align: center;
+    padding: 50px 0 0 0;
+	font-size: 40px;
+	font-weight: 700;
+    color: #1A1A1A;
+}
+.our-key-points .sec-title h3 strong {
+	font-weight: 700;
+	color: #666;
+}
+
+
+/*Digital Section*/
+
+
+.digital {
+	background:#fff;
+	padding: 50px 0;
+}
+.digital .title h2{
+	font-family: 'Ubuntu', sans-serif;
+}
+.digital .lead{
+	font-size: 16px;
+	padding: 35px 0px;
+	
+	
+}
+
+.digital .text ul{
+	padding: 0;
+	margin: 0;
+}
+.digital .text ul li {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.digital .text ul li:before{
+	content: "\f00c";
+    font-family: FontAwesome;
+	padding-right: 10px;
+	color: #B90F12;
+    
+}
+.digital .text .btn{
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 35px 0;
+
+}
+.digital .digital-marketing{
+	margin-top: 20vh;
+}
+
+/*featured point*/
+
+.featured-point {
+/*	margin: 100px 0;*/
+	background:#ffc107;
+	padding: 50px 0;
+}
+.featured-point .title h2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.featured-point .text{
+	text-align: center; 
+}
+.featured-point .text .lead{
+	text-align: center;
+}
+.featured-point .text .btn{
+	width: 350px;
+	line-height:25px;
+	font-weight:bold;
+	padding: 20px;
+	font-size:18px;
+	color: #fff;
+	margin-bottom: 15px;
+	cursor: pointer;
+	background-color: #212529;
+	border-color: #000; 
+}
+.featured-point .text .btn:hover{
+	color:#ffc107;
+}
+.featured-point .text span {
+	display: block;
+	font-size:18px;
+	font-weight: 600;
+	
+}
+
+
+
+
+
+/* ================= Clients ==================== */
+.client-list{
+	padding: 150px 0;
+	background: url(../../../images/bg.jpg);
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.client-list .sec-title {
+	color: #fff;
+}
+.client-list p {
+	color: #fff;
+	line-height: 30px;
+	padding-bottom: 50px;
+	font-size: 18px;
+}
+.clients-grid .border-box {
+    border: 1px solid #eee;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+        background: #fff;
+    border-radius: 1px;
+}
+
+.clients-grid .border-box a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clients-grid .border-box img {
+    padding: 15px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.clients-grid .border-box img:hover {
+
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+
+/*
+	  -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+*/
+}
+
+.clients-grid .border-box:hover{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+/*
+Grid Gutter Style
+---------------------------------------------------------------------------*/
+.clients-grid.grid-gutter .border-box {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 575px)  {
+	
+	.clients-grid .border-box img {
+		 padding: 15px 15px;
+
+	}
+	.about-us .content-right {
+    	padding: 15px;
+	}
+	
+}
+
+/*Who We are - About -Single Column */
+.contact-us .section-title h3 {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+	line-height: 60px;
+}
+.section-description p {
+    line-height: 30px;
+    padding: 25px 0;
+    font-size: 16px;
+	}
+
+/*Dropdown menu */
+
+
+/*Page Map*/
+.gl-map{
+	border: double 1px  #e8e8e8;
+}
+.gl-map-title{
+	font-size: 16px;
+	font-weight: 600;
+    padding: 10px;
+/*	background:#e8e8e8;*/
+	background-color: #f6f6f6;
+    background-image: -webkit-linear-gradient(#f6f6f6 0%, white 45%);
+    background-image: linear-gradient(#f6f6f6 0%, white 45%);
+    border-bottom: 1px solid #E9E9E6;
+    border-top: 1px solid #EDEDED;
+}
+.gl-map iframe{
+	padding: 8px;
+}
+
+
+
+/*Technical help*/
+
+
+/*Technical help*/
+.technical-help {
+	  box-shadow: 0 0 30px rgba(0,0,0,.3);
+/*
+    margin-bottom: 50px;
+    
+*/
+}
+.technical-help .left-sec {
+    background: url('../../images/web-development.jpg');
+    background-size: cover;
+    display: block;
+
+}
+
+.technical-help .left-sec p{
+    padding-top: 15px;
+	padding-right: 50px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+}
+.technical-help .right-sec {
+	padding: 60px;
+    display: block;
+}
+ .technical-help .right-sec .sub-title{ 
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+   
+}
+.technical-help .right-sec h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.technical-help .right-sec .btn {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #212121;
+    color: #000 !important;
+    background-color: #fff;
+    line-height: 0;
+}
+.technical-help .right-sec a.btn:hover{
+	background:#899885;
+}
+
+/*Responsive*/
+@media (max-width: 575px) {
+	.technical-help .right-sec {
+		padding: 20px;
+
+	}
+	.technical-help .right-sec h2 {
+		font-size: 25px;
+	}
+	.technical-help .right-sec .lead {
+		font-size: 16px;
+	}
+	.technical-help .right-sec .btn {
+		margin: 15px 0;
+		padding: 10px !important;
+		width: 100%;
+		font-size: 16px;
+		
+	}
+	.technical-help .right-sec a.btn .icon{
+		padding-right: 50px !important;
+	}
+}
+/*  End Tech section */
+
+/*Page CSS*/
+.page .content {
+	padding-right: 5px;
+}
+
+	
+.page  img {
+  width: 100%;
+}
+.page .figure {
+	padding: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	background: #fff;
+    width: 100%;
+	margin: 0 auto 1em;
+}
+.page .figure img {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+}
+.page .figure figcaption {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #4CAF50;
+    counter-increment: figures;
+}
+
+.page .figure figcaption:after {
+	content: ' - ABN WEBTECH  ';
+}    
+/*
+.figure figcaption:before {
+	content: 'Khan Web Academy . ' counter(figures) ' - ';
+}
+*/
+
+
+
+
+/*CSS By Nasirudin Khan*/
+
+.order{
+	padding: 20px 0;
+	background-color: #0b962a;
+	border-bottom: 3px solid #56e69a;
+}
+.order h5{
+	color: #FFF;
+	font-family: 'Verdana';
+	padding-top: 10px;
+	font-size: 20px;
+}
+.order p{
+	color: #FFF;
+}
+.order .btn{
+	margin-top: 20px;
+}
+.order .btn-default{
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: #ffc107;
+    font-weight: bold;
+}
+.order .btn-default:hover{
+	
+	cursor: pointer;
+}
+
+@media (max-width: 575px) {
+	.order h5{
+		font-size: 16px;
+		line-height: 25px;
+		text-align: center;
+	}
+	.order p{
+		text-align: center;
+	}
+	.order .btn-default{
+		margin: auto;
+		display: block;
+		width: 100%;
+	}
+	
+}
+
+
+/*******************************
+	Price Table 
+***********************************/
+.pricing-table{
+	padding: 100px 0;
+	background-color:#f6f6f6;
+}
+.pricing-table .content{
+	text-align: center;
+	margin: 50px 0;
+}
+.pricing-table .content .title{
+	text-align: center;
+}
+.pricing-item {
+    position: relative;
+    text-align: center;
+/*	border: 1px solid #ddd;*/
+}
+.pricing-item:hover .pricing-deco, .blog-tags a:hover {
+    background-color: #000;
+}
+.pricing-table .pricing-item:hover .deco-layer--1 {
+    transform: translate3d(55px, 0, 0);
+}
+.pricing-table .pricing-item:hover .deco-layer--2 {
+    transform: translate3d(-35px, 0, 0);
+}
+.pricing-table .pricing-deco-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.pricing-table .pricing-deco {
+    border-radius: 10px 10px 0 0;
+    padding: 3em 0 5em;
+    position: relative;
+    transition: background-color 0.3s;
+}
+.pricing-table .deco-layer {
+    transition: transform 0.5s;
+}
+.pricing-table .pricing-deco{
+	background-color: #0b962a;
+	cursor: pointer;
+}
+.pricing-table .pricing-price {
+    font-size: 5em;
+    padding: 0;
+    color: #fff;
+    margin: 0 0 0.25em 0;
+    line-height: 0.75;
+    font-weight: 700;
+}
+.pricing-table .pricing-period {
+    font-size: 0.25em;
+    font-style: italic;
+}
+.pricing-table .pricing-currency {
+    font-size: 0.35em;
+    vertical-align: top;
+}
+.pricing-table h3.pricing-title{
+	color: #fff;
+}
+.pricing-table h3.pricing-title{
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 0px;
+    position: relative;
+}
+.pricing-table .white-heading-h3{
+	color: #fff;
+}
+/*******************************
+	Pricing Feature
+***************************************/
+.pricing-feature{
+	margin: 0;
+	padding: 5px;
+	background-color: #fff;
+}
+.pricing-feature li{
+	list-style: none;
+	padding: 5px;
+	font-size: 17px;
+}
+.pricing-button{
+	background-color: #fff;
+	padding-bottom: 70px;
+}
+.pricing-button .btn-default{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: 0.6px;
+    outline: none;
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    border: solid 7px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-weight: 700;
+	background-color: #6d6e70;
+	border-color: #43a6ac;
+}
+.pricing-button .btn-default:hover{
+	color: #fff;
+	background-color: #43a6ac;
+	border-color: #43a6ac;
+}
+
+
+
+
+
+/* Scroll to top Start */
+#return-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: none;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+/* Scroll to top END */
+
+/* page Bottom Shadow */
+.shadow {
+		box-shadow: 0px 0px 5px #ccc;
+		-moz-box-shadow: 0px 0px 5px #ccc;
+		-webkit-box-shadow: 0px 0px 5px #ccc;
+	}
+	
+	
+	.pagge-bottom-banner {
+	   padding: 80px 0;
+		box-shadow: 0px 0px 5px #ccc;
+		-moz-box-shadow: 0px 0px 5px #ccc;
+		-webkit-box-shadow: 0px 0px 5px #ccc;
+	}
+	.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	}
+	.page-banner img{
+	padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);	
+		
+		
+	}
+	
+	
+	.page-banner  {
+		padding: 50px 0;
+		background: #fafafa;
+	}
+	
