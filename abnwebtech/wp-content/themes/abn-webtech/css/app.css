@@ -46,14 +46,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
     Normalize CSS
 ==================================================================|*/
 :root{
-    --container-width: 1408px;
+    /* --container-width: 1408px; */
+    --container-width: 1242px;
     --abn-white: #ffffff;
     /* --abn-primary: #43BC43; */
     --abn-primary: #3ead3c;
-    --abn-primary-800: #68CA68;
-    --abn-primary-600: #8DD88D;
-    --abn-primary-400: #B2E6B2;
-    --abn-primary-200: #D8F3D8;
+    --abn-primary-5: #28a526;
+    --abn-primary-4: #68CA68;
+    --abn-primary-3: #8DD88D;
+    --abn-primary-2: #B2E6B2;
+    --abn-primary-1: #D8F3D8;
     --abn-secondary: #1f1f1f;
     --abn-black-8: #0D0208;
     --abn-black: #000000;
@@ -196,14 +198,14 @@ p{
 }
 .sec-header .eyebrow-title{
     display: inline-block;
-    color: var(--abn-black);
+    color: var(--abn-primary);
     font-size: var(--abn-fs-xs);
     font-weight: var(--abn-fw-6);
     text-transform: uppercase;
-    padding: 4px 14px;
     line-height: 22px;
+    /* padding: 4px 14px;
     background-color: var(--abn-primary);
-    border-radius: 19px;
+    border-radius: 19px; */
     margin-bottom: var(--spacing-xs);
 }
 .sec-header p{
@@ -278,12 +280,91 @@ p{
 }
 .hero-carousel .hero-caption a{
     margin-top: 16px;
-    background-color: #0D0208;
+    background-color: #3ae138;
+    border: none;
     border-bottom: 1px solid var(--abn-primary);
     border-width: 4px;
 }
 .hero-carousel .hero-carousel-img{
     width: 100%;
+}
+/*=====================================================
+    About Section
+=======================================================*/
+.home-about-sec{
+    background-color: #f6f6f6;
+    padding-bottom: 60px;
+}
+.about-wrap{}
+.about-wrap .about-content p{}
+.about-wrap .about-content ul li{
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: var(--spacing-xs);
+}
+.about-wrap .about-content ul li i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    color: var(--abn-primary);
+}
+.about-featured-wrap{}
+.about-featured-wrap .col-lg-6:nth-child(2n+2) {
+    margin-top: 30px;
+}
+.about-featured-wrap .card{
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.07));
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.07));
+    background-color: var(--abn-white);
+    padding: 30px;
+    margin-top: 24px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.about-featured-wrap .card::before{
+    content: '';
+    position: absolute;
+    right: -65px;
+    width: 95px;
+    height: 95px;
+    top: -55px;
+    border-radius: 50px;
+    background-color: var(--abn-primary);
+    transition: all .3s;
+    z-index: -1;
+}
+.about-featured-wrap .card:hover::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background-color: var(--abn-primary);
+}
+.about-featured-wrap .card:hover .card-title,.about-featured-wrap .card:hover p{
+    color: var(--abn-white);
+}
+.about-featured-wrap .card-img{
+    width: 60px;
+}
+.about-featured-wrap .card-body{
+    padding: 10px 0 0;
+    position: relative;
+    width: 100%;
+    /* background-image: url(../images/about-featured-bg.png); */
+}
+.about-featured-wrap .card-body .featured-bg{
+    position: absolute;
+    left: -30px;
+    bottom: -40px;
+    width: 100%;
+}
+.about-featured-wrap .card-body .card-title{
+    margin-bottom: var(--spacing-xs);
 }
 /*=====================================================
     Home Featured Service Section
@@ -450,11 +531,25 @@ p{
     padding-top: var(--spacing-xs);
 }
 .footer-widget-link ul li a{
+    position: relative;
+    padding-left: 20px;
+    display: block;
     color: var(--abn-black);
     font-weight: var(--abn-fw-4);
 }
+.footer-widget-link ul li a::before{
+    position: absolute;
+    left: 0;
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: all 0.3s;
+}
 .footer-widget-link ul li a:hover{
     color: var(--abn-white);
+}
+.footer-widget-link ul li a:hover::before{
+    transform: rotate(270deg);
 }
 .copyright-sec{
     background-color: #080113;
@@ -508,13 +603,54 @@ p{
 .breadcrumb-item+.breadcrumb-item::before {
     display: none;
 }
-
+/*=====================================================
+    Single page
+=======================================================*/
+.page-wrap{
+    background-color: #f6f6f6;
+}
+.post-content{
+    border-radius: 5px;
+    padding: var(--spacing-lg);
+    background-color: var(--abn-white);
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+}
+.post-content .post-title{
+    font-size: ;
+}
+.post-content .post-meta{
+    padding: var(--spacing-xxs) 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.post-content .post-meta span{
+    display: block;
+    line-height: 30px;
+    font-size: var(--abn-fs-xs);
+    font-weight: var(--abn-fw-4);
+    margin-right: var(--spacing-xs);
+}
+.post-content .post-meta span i{
+    margin-right: var(--spacing-xxs);
+}
+.post-content .post-meta span a{
+    
+}
+.post-content h1{}
+.post-content h2{}
+.post-content h3{}
+.post-content h4{}
+.post-content p{}
+.post-content p a{}
+.post-content ul{}
+.post-content ul li{}
+.post-content ul li a{}
 /*=====================================================
     Sidebar Page
 =======================================================*/
 .sidebar .widget{
     margin-bottom: 24px;
-    background-color: var(--wk-white);
+    background-color: var(--abn-white);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);
     border-radius: 4px;
 }
@@ -625,7 +761,7 @@ p{
 /*==========| Tag List |==========*/
 .tag-widget ul li {
     display: inline-block;
-    margin: 0 8px 12px 0;
+    margin: 0 var(--spacing-xs) var(--spacing-xs) 0;
 }
 .tag-widget ul li:last-child{
     margin-bottom: 0;

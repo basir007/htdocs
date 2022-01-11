@@ -95,6 +95,87 @@
         </div>
     </section>
     <!-- /Featured Service -->
+    <section class="home-about-sec about-wrap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="sec-header text-lg-start">
+                            <span class="eyebrow-title">Digital Marketing Services</span>
+                            <h3 class="title">Why Your Business Need Digital Marketing</h3>
+                        </div>
+                        <p>Globally parallel task quality methodologies whereas inexpensive sources. Uniquely administrate ubiquitous web services through diverse quality vectors syndicate error-free intellectual capital.</p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> <strong> Advance Advisory Team </strong>– often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong> Professional Consulting Services  </strong>– if spreading in your community. This is especially important for people who are at higher risk of getting very sick brand future-proof intellectual capital.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong> 24/7 Support Help Center </strong>– with a tissue when you cough or sneeze or use the inside of your elbow.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong> Customer Service & Operations  </strong>– This includes phones, tables, light switches, doorknobs, countertops, handles, desks, toilets.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-featured-wrap">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/svg/web-design.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Increased Traffic</h3>
+                                        <p>Wash your hands frequently more then 20s</p>
+                                        <div class="featured-bg">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-featured-bg.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/svg/web-design.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Site Optimisation</h3>
+                                        <p>Progressively leverage existing resource-leveling methodologies</p>
+                                        <div class="featured-bg">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-featured-bg.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/svg/web-design.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Cost-effectiveness</h3>
+                                        <p>If you have fever, cough and difficulty breathing, seek medical care early</p>
+                                        <div class="featured-bg">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-featured-bg.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/svg/web-design.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Page Rankings</h3>
+                                        <p>Rapidiously integrate viral infrastructures reliable.</p>
+                                        <div class="featured-bg">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-featured-bg.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Crad -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /About Featured Container -->
+                </div>
+            </div>  
+        </div>
+    </section>
     <section class="working-sec sec-py">
         <div class="container">
             <div class="row">

@@ -737,7 +737,7 @@ add_action( 'init', 'abn_contact' );
 
 
 
-add_action( 'cmb2_init', 'contact_meta' );
+//add_action( 'cmb2_init', 'contact_meta' );
 
 function contact_meta() {
 

@@ -198,7 +198,7 @@ class my_Admin {
 						'options' => array(
 							'wpautop' => true,
 						//	'media_buttons' => true, 
-							'textarea_name' => $editor_id, 
+							'textarea_name' => 'footer_about', 
 							'textarea_rows' => get_option('default_post_edit_rows', 5), 
 							'tabindex' => '',
 							'editor_css' => '',
