@@ -2,25 +2,28 @@
 /* Template Name: Industry Template  */
 get_header();
 ?>
-<section class="industry-banner-sec">
+<section class="industry-banner-sec sec-py">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="industry-content">
-                    <span class="sub-title">Medical Website Design</span>
-                    <h2 class="title">Get a professionally designed website for your medical centre to better reach your community.</h2>
+                <div class="industry-content text-lg-start mb-4">
+                    <div class="sec-header text-lg-start">
+                        <span class="eyebrow-title">Medical Website Design</span>
+                        <h2 class="title">Get a professionally designed website for your medical centre to better reach your community.</h2>
+                    </div>
                     <p>A quality medical service is only as good as it’s first impression and for many that’s often a well designed and easy to navigate website. Whether you run a large medical centre or a small local clinic, our specialised medical website designers are ready to help you take the next step.</p>
                     <a href="#scroll-up" class="btn btn-solid-ol"> Get Started <i class="fas fa-arrow-right"></i> </a>
                 </div>
                 <!-- /industry-content -->
+                <a href="#scroll-up" class="scroll-down"> <i class="fas fa-arrow-down"></i> </a>
             </div>
 
         </div>
     </div>
 </section>
-<section id="scroll-up" class="industry-why-sec">
+<section id="scroll-up" class="industry-why-sec sec-py">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-9">
                 <div class="industry-content">
                     <div class="card">
@@ -86,8 +89,8 @@ get_header();
 <section class="industry-featured-sec">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
-                <div class="sec-header">
+            <div class="col-lg-8">
+                <div class="sec-header text-lg-start">
                     <h3 class="title">Some common features of our medical and GP website designs</h3>
                 </div>
                 <div class="industry-featured-wrap">
@@ -122,19 +125,19 @@ get_header();
                 </div>
                 <!-- /Industry-Carousel -->
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="industry-featured-img"></div>
             </div>
         </div>
     </div>
 </section>
-<section id="price" class="industry-price-sec">
+<section id="price" class="industry-price-sec sec-py">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="sc-header">
+                <div class="sec-header ">
                     <h3 class="title">Check our packages and pricing</h3>
-                    <p class="sub-title">We’ve created the following three website design packages specifically for medical and healthcare organisations spanning across all budgets.</p>
+                    <p class="sub-title w-75 m-auto">We’ve created the following three website design packages specifically for medical and healthcare organisations spanning across all budgets.</p>
                 </div>
             </div>
         </div>
@@ -155,7 +158,7 @@ get_header();
                 <!-- /Price Box -->
             </div>
             <div class="col-lg-4">
-                <div class="price-box">
+                <div class="price-box box-middle">
                     <h5 class="package-title">Silver</h5>
                     <h4 class="package-sub-title">Template Plus</h4>
                     <h3 class="package-price">$399</h3>
@@ -192,7 +195,7 @@ get_header();
         <!-- /Row -->
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="price-btn">
+                <div class="price-btn text-center mt-4">
                     <p>Need to know more details about the scope of these packages?</p>
                     <a href="#" class="btn btn-solid">Enquire Now<i class="fas fa-arrow-right"></i></a>
                 </div>

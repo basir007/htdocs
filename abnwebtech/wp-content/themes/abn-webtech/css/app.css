@@ -849,12 +849,104 @@ Faqs Page
 .industry-banner-sec{}
 /*========| Industry Why |========*/
 .industry-why-sec{}
+.industry-content{
+    text-align: center;
+}
+.industry-content .card{
+    margin: 0 auto 16px;
+    border: none;
+    border-radius: 12px;
+    /* box-shadow: var(--shadow-sm); */
+}
+.industry-content .card::before{}
+.industry-content .card .card-img{
+    width: 90px;
+    margin: 24px auto 24px;
+}
+.industry-content .card-body{
+    text-align: left;
+}
+.industry-content .card-body .title{
+    font-size: var(--abn-fs-md);
+    margin-bottom: var(--spacing-md);
+}
+.industry-content .card-body ul{}
+.industry-content .card-body ul li{
+    margin: 8px 0;
+    padding-left: 30px;
+    position: relative;
+}
+.industry-content .card-body ul li:before{
+    position: absolute;
+    content: "\f00c";
+    left: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.industry-content .card-body ul li a{
+    font-weight: var(--abn-fw-5);
+}
 /*========| Industry Portfolio |========*/
 .industry-portfolio-sec{}
 /*========| Industry Featured |========*/
 .industry-featured-sec{}
+.industry-featured-wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 24px;
+}
+.industry-featured-wrap .card{
+    border: none;
+    padding: 24px;
+    box-shadow: var(--shadow-md);
+    border-radius: 8px;
+}
+.industry-featured-wrap .card img{
+    width: 60px;
+}
+.industry-featured-wrap .card-body{
+    padding: 16px 0 0;
+}
+.industry-featured-wrap .card-body .card-title{
+    margin-bottom: 8px;
+}
 /*========| Industry Price |========*/
-.industry-price-sec{}
+.box-middle{
+    background-color: var(--abn-white);
+    box-shadow: var(--shadow-md);
+}
+.industry-price-sec{
+    background-color: #f8f9fb;
+}
+.industry-price-sec .price-box{
+    text-align: center;
+    padding: 40px 30px;
+}
+.industry-price-sec .price-box .package-title{
+    font-size: var(--abn-fs-body);
+    margin-bottom: 4px;
+}
+.industry-price-sec .price-box .package-sub-title{
+    margin-bottom: 12px;
+}
+.industry-price-sec .price-box .package-price{
+    font-size: var(--abn-fs-xxl);
+    margin-bottom: 24px;
+}
+.industry-price-sec .price-box ul{}
+.industry-price-sec .price-box ul li{
+    display: block;
+    font-weight: var(--abn-fw-5);
+    padding: 14px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.industry-price-sec .price-box ul li+li{
+    margin-top: -1px;
+}
+.industry-price-sec .price-box ul li:last-child{
+    border-bottom: none;
+}
 /*========| Industry Faq |========*/
 .industry-faq-sec{}
 .industry-faq-content{}
@@ -939,6 +1031,16 @@ Faqs Page
     .sec-header .sub-title{
         font-size: 20px;
     }
+    /*========| Industry Page |========*/
+    .industry-content .card{
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .industry-content .card .card-img{
+        width: 90px;
+        margin: 24px;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -973,6 +1075,12 @@ Faqs Page
     }
     .sec-header .sub-title{
         font-size: 22px;
+    }
+    .industry-content .card::before{
+        position: absolute;
+        content: "";
+        left: 0;
+        border-left: 4px solid #122c4b;
     }
 }
 
