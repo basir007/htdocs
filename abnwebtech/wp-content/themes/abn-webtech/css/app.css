@@ -159,18 +159,18 @@ p{
 .btn-solid,.btn-capsule{
     color: var(--abn-white);
     background-color: var(--abn-primary);
-    border: 2px solid var(--abn-black-8);
+    border: 2px solid var(--abn-primary);
 }
 .btn-capsule,.btn-capsule-ol{
     border-radius: 30px;
 }
 .btn-solid-ol,.btn-capsule-ol{
     color: var(--abn-black-8);
-    border: 2px solid var(--abn-black-8);
+    border: 2px solid var(--abn-primary);
 }
 .btn-solid:hover,.btn-solid-ol:hover,.btn-capsule:hover,.btn-capsule-ol:hover{
     color: var(--abn-white);
-    border: 2px solid var(--abn-primary);
+    border-color: var(--abn-primary);
     background-color: var(--abn-primary);
 }
 /*=====================| Section Header |=====================*/
@@ -627,14 +627,11 @@ p{
     display: block;
     line-height: 30px;
     font-size: var(--abn-fs-xs);
-    font-weight: var(--abn-fw-4);
+    font-weight: var(--abn-fw-5);
     margin-right: var(--spacing-xs);
 }
-.post-content .post-meta span i{
-    margin-right: var(--spacing-xxs);
-}
 .post-content .post-meta span a{
-    
+    margin-left: 5px;
 }
 .post-content h1{}
 .post-content h2{}
@@ -784,6 +781,99 @@ p{
 }
 .widget_categories{}
 .widget_categories ul li{}
+/*==================================================
+Faqs Page
+===================================================*/
+.faq-sec{
+    background-color: #f6f6f6;
+}
+.faq-nav{
+    background-color: var(--abn-white);
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.20);
+}
+.faq-nav .faq-nav-text{
+    padding: 12px 24px;
+    font-size: var(--abn-fs-sm);
+    border-bottom: 1px solid #ddd; 
+}
+.faq-nav ul{
+    padding: 0 24px;
+}
+.faq-nav ul li+li{
+    border-top: 1px solid #ddd;
+}
+.faq-nav ul li a{
+    display: block;
+    padding: var(--spacing-xs) 0;
+}
+.faq-nav ul li a.active{
+    color: var(--abn-primary);
+}
+.faq-nav ul li a i{
+    margin-right: 6px;
+}
+.faq-content{}
+.faq-content .faq-title{
+    font-size: var(--abn-fs-sm);
+    margin-bottom: 12px;
+}
+.faq-sec .accordion{}
+.faq-sec .accordion .accordion-item{
+    margin-bottom: 20px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 2px 3px rgba(20, 27, 202, .17);
+    border-radius: 4px;
+}
+.faq-sec .accordion-item .accordion-header{}
+.accordion-item .accordion-header .accordion-button{
+    box-shadow: none;
+    font-size: var(--abn-fs-sm);
+    font-weight: var(--abn-fw-5);
+}
+.accordion-button:not(.collapsed) {
+    color: var(--abn-black);
+    background-color: var(--abn-primary-1);
+}
+.accordion-button:not(.collapsed)::after { }
+.faq-sec .accordion-item .accordion-collapse{}
+.faq-sec .accordion-item .accordion-collapse .accordion-body{}
+.faq-sec .accordion-item .accordion-collapse .accordion-body p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+/*=====================================================
+    Industry Page
+=======================================================*/
+/*========| Industry Banner |========*/
+.industry-banner-sec{}
+/*========| Industry Why |========*/
+.industry-why-sec{}
+/*========| Industry Portfolio |========*/
+.industry-portfolio-sec{}
+/*========| Industry Featured |========*/
+.industry-featured-sec{}
+/*========| Industry Price |========*/
+.industry-price-sec{}
+/*========| Industry Faq |========*/
+.industry-faq-sec{}
+.industry-faq-content{}
+.industry-faq-content{}
+
+/*========| Industry Call to Action |========*/
+.industry-cta-sec{
+    background-color: #f8f9fa;
+}
+.industry-cta-content{
+    text-align: center;
+}
+.industry-cta-content p{
+    margin: 0 auto 20px;
+    width: 70%;
+}
+.industry-banner-sec a i,.industry-why-sec a i,.industry-price-sec a i,.industry-cta-content a i{
+    margin-left: 12px;
+}
 /*=====================================================
     Media Query
 =======================================================*/

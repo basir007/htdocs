@@ -22,7 +22,7 @@
 </section>
 
 <!-- Material button -->
-	<section class="footer-cta-sec py-4">
+	<section class="footer-cta-sec py-4 d-none">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-9 col-md-6">
@@ -100,13 +100,13 @@
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="footer-widget footer-widget-link">
-							<h3 class="footer-widget-title">Working Area</h3>
+							<h3 class="footer-widget-title">Industry</h3>
 							<ul>
 								<li><a href="http://www.abnwebtech.com/responsive-website-designing-in-kolkata/">Medical Website</a></li>
 								<li><a href="http://www.abnwebtech.com/responsive-website-designing-in-kolkata/">Education Website</a></li>
-								<li><a href="http://www.abnwebtech.com/logo-design/">Personal Website</a></li>
-								<li><a href="javascript:void();">WordPress Blog</a></li>
-								<li><a href="http://www.abnwebtech.com/website-design-company-in-kolkata/">Wedding Website</a></li>
+								<li><a href="http://www.abnwebtech.com/logo-design/">Real Estate</a></li>
+								<li><a href="javascript:void();">Hospitality</a></li>
+								<li><a href="http://www.abnwebtech.com/website-design-company-in-kolkata/">E-commerce Website</a></li>
 								<li><a href="javascript:void();">Corporate Identity Design</a></li>
 							</ul>
 						</div>
