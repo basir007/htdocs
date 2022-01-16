@@ -204,37 +204,37 @@
                         </div>
                         <div class="card shade-3">
                             <div class="icon-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-6.png" class="img-fluid" alt="">
                             </div>
                             <p>Enterprise Service</p>
                         </div>
                         <div class="card shade-4">
                             <div class="icon-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-7.png" class="img-fluid" alt="">
                             </div>
                             <p>Education Service</p>
                         </div>
                         <div class="card shade-5">
                             <div class="icon-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-8.png" class="img-fluid" alt="">
                             </div>
                             <p>Tour and Travels</p>
                         </div>
                         <div class="card shade-6">
                             <div class="icon-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-9.png" class="img-fluid" alt="">
                             </div>
                             <p>Health Service</p>
                         </div>
                         <div class="card shade-7">
                             <div class="icon-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-10.png" class="img-fluid" alt="">
                             </div>
                             <p>Event & Ticket</p>
                         </div>
                         <div class="card shade-8">
                             <div class="icon-box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-11.png" class="img-fluid" alt="">
                             </div>
                             <p>Restaurant Service</p>
                         </div>

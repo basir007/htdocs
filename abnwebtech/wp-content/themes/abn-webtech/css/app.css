@@ -51,7 +51,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --abn-white: #ffffff;
     /* --abn-primary: #43BC43; */
     --abn-primary: #3ead3c;
-    --abn-primary-5: #28a526;
+    --abn-primary-6: #28a526;
+    --abn-primary-5: #73c41d;
     --abn-primary-4: #68CA68;
     --abn-primary-3: #8DD88D;
     --abn-primary-2: #B2E6B2;
@@ -372,23 +373,36 @@ p{
 =======================================================*/
 .featured-service-sec{}
 .featured-service-sec .card{
-    flex-direction: row;
-    align-items: center;
+    border-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: var(--shadow-xs);
 }
 .featured-service-sec .card .icon-box{
     width: 70px;
     height: 70px;
-    border: 1px solid #ddd;
-    margin-left: 16px;
+    line-height: 70px;
+    border: 1px solid #f2f2f2;
+    background-color: var(--abn-primary);
+    margin-left: -15px;
+    border-radius: 5px;
+    text-align: center;
 }
-.featured-service-sec .card .icon-box img{}
+.featured-service-sec .card .icon-box img{
+    width: 50px;
+    color: #fff;
+}
 .featured-service-sec .card-body{
-    flex: 0 ;
 }
-.featured-service-sec .card-body .card-title{}
-.featured-service-sec .card-body p{}
-
-
+.featured-service-sec .card-body .card-title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.featured-service-sec .card-body p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
 /*=====================================================
     Home Working Section
 =======================================================*/
@@ -407,7 +421,8 @@ p{
     padding: 20px 16px 24px;
     text-align: center;
     border: none;
-    border-radius: 5px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
     box-shadow: var(--shadow-md);
 }
 .working-area .card .icon-box{
@@ -1084,7 +1099,14 @@ Faqs Page
         width: 90px;
         margin: 24px;
     }
-
+    /*========| Featured Service Section |========*/
+    .featured-service-sec .card{
+        flex-direction: row;
+        align-items: center;
+    }
+    .featured-service-sec .card-body{
+        flex: 1;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */

@@ -46,92 +46,80 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="about_us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">
                                     About Us
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="about_us">
-                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
-                                    <li><a class="dropdown-item" href="team.html">Team</a></li>
-                                    <li><a class="dropdown-item" href="pricing.html">Pricing </a></li>
-                                    <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
-                                    <li><a class="dropdown-item" href="terms-condition.html">Terms &amp; Condition</a></li>
-                                    <li><a class="dropdown-item" href="privacy-policy.html">Privacy &amp; Policy</a></li>
-                                    <li><a class="dropdown-item" href="comming-soon.html">Comming soon</a></li>
-                                </ul>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
+                            <li class="nav-item">
+                                <a class="nav-link" href="case-study.html">
+                                    Case Study
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="services">
-                                    <li><a class="dropdown-item" href="web-design.html">Web Design</a></li>
-                                    <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
-                                    <li><a class="dropdown-item" href="app-development.html">App Development</a></li>
-                                    <li><a class="dropdown-item" href="content-marketing.html">Content Marketing</a></li>
-                                    <li><a class="dropdown-item" href="social-marketing.html">Social Marketing</a></li>
-                                    <li><a class="dropdown-item" href="seo-optimization.html">SEO Optimization</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="project" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Projects
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="project">
-                                    <li><a class="dropdown-item" href="project-left-sidebar.html">Project Left Sidebar</a></li>
-                                    <li><a class="dropdown-item" href="project-right-sidebar.html">Project Right Sidebar</a></li>
-                                    <li><a class="dropdown-item" href="project-detail.html">Project Details</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item dropdown has-mega-menu">
-                                <a class="nav-link dropdown-toggle" href="#" id="pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Pages
+                                <a class="nav-link dropdown-toggle" href="#" id="service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
                                 </a>
-                                <div class="dropdown-menu mega-menu" aria-labelledby="pages">
+                                <div class="dropdown-menu mega-menu" aria-labelledby="service">
                                     <section class="mega-menu-content">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-lg-3 col-sm-6">
-                                                    <h3 class="nav-title">About Us</h3>
-                                                    <ul>
-                                                        <li><a class="dropdown-item" href="faq.html">Faq</a></li>
-                                                        <li><a class="dropdown-item" href="team.html">Team</a></li>
-                                                        <li><a class="dropdown-item" href="pricing.html">Pricing </a></li>
-                                                        <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
-                                                        <li><a class="dropdown-item" href="terms-condition.html">Terms &amp; Condition</a></li>
-                                                        <li><a class="dropdown-item" href="privacy-policy.html">Privacy &amp; Policy</a></li>
-                                                        <li><a class="dropdown-item" href="comming-soon.html">Comming soon</a></li>
-                                                    </ul>
+                                                <div class="col-lg-3">
+                                                    <h2 class="">Our Service</h2>
+                                                    <p>We have 8+ years of expirience and a good team of full stack developer, and designer to deliver hight quality, traffic driven result </p>
                                                 </div>
-                                                <div class="col-lg-3 col-sm-6">
-                                                    <h3 class="nav-title">Services</h3>
-                                                    <ul>
-                                                        <li><a class="dropdown-item" href="web-design.html">Web Design</a></li>
-                                                        <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
-                                                        <li><a class="dropdown-item" href="app-development.html">App Development</a></li>
-                                                        <li><a class="dropdown-item" href="content-marketing.html">Content Marketing</a></li>
-                                                        <li><a class="dropdown-item" href="social-marketing.html">Social Marketing</a></li>
-                                                        <li><a class="dropdown-item" href="seo-optimization.html">SEO Optimization</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3 col-sm-6">
-                                                    <h3 class="nav-title">Blog</h3>
-                                                    <ul>
-                                                        <li><a class="dropdown-item" href="blog.html">Our Blog</a></li>
-                                                        <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-detail.html">Blog Details</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3 col-sm-6">
-                                                    <h3 class="nav-title">Shop</h3>
-                                                    <ul>
-                                                        <li><a class="dropdown-item" href="our-products.html">Our Products</a></li>
-                                                        <li><a class="dropdown-item" href="single-product.html">Single Product</a></li>
-                                                        <li><a class="dropdown-item" href="product-detail.html">Product Details</a></li>
-                                                    </ul>
+                                                <div class="col-lg-9">
+                                                    <div class="row">
+                                                        <div class="col-lg-3 col-sm-6">
+                                                            <h3 class="nav-title"><i class="fas fa-laptop-code"></i>Web Development</h3>
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="web-design.html">Web Design</a></li>
+                                                                <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+                                                                <li><a class="dropdown-item" href="app-development.html">App Development</a></li>
+                                                                <li><a class="dropdown-item" href="content-marketing.html">Content Marketing</a></li>
+                                                                <li><a class="dropdown-item" href="social-marketing.html">Social Marketing</a></li>
+                                                                <li><a class="dropdown-item" href="seo-optimization.html">SEO Optimization</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-6">
+                                                            <h3 class="nav-title"><i class="fab fa-wordpress"></i>WordPress Services</h3>
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="web-design.html">PSD to html</a></li>
+                                                                <li><a class="dropdown-item" href="web-development.html">WordPress Theme </a></li>
+                                                                <li><a class="dropdown-item" href="app-development.html">WordPress Plugin</a></li>
+                                                                <li><a class="dropdown-item" href="content-marketing.html">WordPress CMS </a></li>
+                                                                <li><a class="dropdown-item" href="social-marketing.html">WordPress BLog</a></li>
+                                                                <li><a class="dropdown-item" href="seo-optimization.html">WordPress SEO</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-6">
+                                                            <h3 class="nav-title"><i class="fas fa-newspaper"></i>Content Writing </h3>
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="blog.html">Blog Writing</a></li>
+                                                                <li><a class="dropdown-item" href="blog-left-sidebar.html">Guest Post Writing</a></li>
+                                                                <li><a class="dropdown-item" href="blog-right-sidebar.html">Homepage Content Writing</a></li>
+                                                                <li><a class="dropdown-item" href="blog-detail.html">Service Content Writing</a></li>
+                                                                <li><a class="dropdown-item" href="blog-detail.html">About Page Content Writing</a></li>
+                                                                <li><a class="dropdown-item" href="blog-detail.html">SEO Content Writing</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-6">
+                                                            <h3 class="nav-title"><i class="fas fa-palette"></i>Web Design</h3>
+                                                            <ul>
+                                                                <li><a class="dropdown-item" href="web-design.html">Web Design</a></li>
+                                                                <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+                                                                <li><a class="dropdown-item" href="app-development.html">App Development</a></li>
+                                                                <li><a class="dropdown-item" href="content-marketing.html">Content Marketing</a></li>
+                                                                <li><a class="dropdown-item" href="social-marketing.html">Social Marketing</a></li>
+                                                                <li><a class="dropdown-item" href="seo-optimization.html">SEO Optimization</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <!-- /ROw -->
                                                 </div>
                                             </div>
+                                            
                                         </div>
 
                                     </section>
@@ -178,26 +166,11 @@
                                     <!-- /Social Group -->
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="shop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Shop
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="shop">
-                                    <li><a class="dropdown-item" href="our-products.html">Our Products</a></li>
-                                    <li><a class="dropdown-item" href="single-product.html">Single Product</a></li>
-                                    <li><a class="dropdown-item" href="product-detail.html">Product Details</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="blog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Blog
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="blog">
-                                    <li><a class="dropdown-item" href="blog.html">Our Blog</a></li>
-                                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a class="dropdown-item" href="blog-detail.html">Blog Details</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact Us</a>
