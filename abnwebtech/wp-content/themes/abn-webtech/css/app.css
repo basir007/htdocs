@@ -848,7 +848,9 @@ Faqs Page
 /*========| Industry Banner |========*/
 .industry-banner-sec{}
 /*========| Industry Why |========*/
-.industry-why-sec{}
+.industry-why-sec{
+    background-color: #f2f1f6;
+}
 .industry-content{
     text-align: center;
 }

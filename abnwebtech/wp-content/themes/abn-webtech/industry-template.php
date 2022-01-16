@@ -73,11 +73,16 @@ get_header();
         </div>
     </div>
 </section>
-<section class="industry-portfolio-sec">
+<section class="industry-portfolio-sec sec-py">
     <div class="contaiter">
-        <div class="sec-header">
-            <h2 class="display-6">Our website designs have helped medical centres reach more people and serve their patients better.</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="sec-header">
+                    <h2 class="display-6">Our website designs have helped medical centres reach more people and serve their patients better.</h2>
+                </div>
+            </div>
         </div>
+       
         <div class="industry-carousel owl-carousel owl-theme">
             <div class="industry-carousel-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/websites/medipost-america.png" class="img-fluid" alt="">
@@ -86,12 +91,12 @@ get_header();
         <!-- /Industry-Carousel -->
     </div>
 </section>
-<section class="industry-featured-sec">
+<section class="industry-featured-sec sec-py">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
                 <div class="sec-header text-lg-start">
-                    <h3 class="title">Some common features of our medical and GP website designs</h3>
+                    <h3 class="fw-6 display-6">Some common features of our medical and GP website designs</h3>
                 </div>
                 <div class="industry-featured-wrap">
                     <div class="card">
