@@ -376,19 +376,21 @@ p{
     border-color: #f2f2f2;
     border-radius: 5px;
     box-shadow: var(--shadow-xs);
+    border-left: 1px solid var(--abn-primary);
+    border-left-width: 3px;
 }
 .featured-service-sec .card .icon-box{
     width: 70px;
     height: 70px;
     line-height: 70px;
-    border: 1px solid #f2f2f2;
-    background-color: var(--abn-primary);
-    margin-left: -15px;
-    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    /* background-color: var(--abn-primary); */
+    margin-left: 16px;
+    border-radius: 35px;
     text-align: center;
 }
 .featured-service-sec .card .icon-box img{
-    width: 50px;
+    width: 40px;
     color: #fff;
 }
 .featured-service-sec .card-body{
